@@ -11,9 +11,9 @@ OUTPUT_SHEET = "ai_email_output"
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 SENDERS = [
-    {"name": "Yash", "email": "yash@sevennodes.com"},
-    {"name": "Megh", "email": "megh@sevennodes.com"},
-    {"name": "Pranav", "email": "pranav@sevennodes.com"},
+    {"name": "abc", "email": "abc@gmail.com"},
+    {"name": "abc", "email": "abc@gmail.com"},
+    {"name": "abc", "email": "abc@gmail.com"},
 ]
 
 def connect_to_sheets():
@@ -76,7 +76,7 @@ Website: {website}
 
 Sender details (USE EXACTLY):
 Name: {sender['name']}
-Company: Seven Nodes
+Company: xyz
 Email: {sender['email']}
 
 Write THREE email variants.
@@ -186,4 +186,5 @@ if __name__ == "__main__":
 
     
     
+
     
