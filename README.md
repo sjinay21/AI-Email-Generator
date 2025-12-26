@@ -4,7 +4,7 @@ This project automates personalized cold email generation using OpenAI and Googl
 ## How it works
 1. Reads lead data from Google Sheets
 2. Uses OpenAI to generate 3 email variants
-3. Uses static sender identities (Seven Nodes)
+3. Uses static sender identities
 4. Writes generated emails back to Google Sheets
 
 ## Setup
