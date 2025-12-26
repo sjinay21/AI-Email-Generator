@@ -8,9 +8,3 @@ __pycache__/
 
 # Virtual env
 venv/
-
-
-# Marimo
-marimo/_static/
-marimo/_lsp/
-__marimo__/
